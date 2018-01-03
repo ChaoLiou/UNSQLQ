@@ -1,45 +1,18 @@
-# electron-quick-start
+# ![UNSQLQ](/assets/icons/png/64x64.png) UN$QLQ
 
-**Clone and run for a quick way to see Electron in action.**
+這只是一個 [Electron APP](http://electron.atom.io/) 的小練習
 
-This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/tutorial/quick-start) within the Electron documentation.
+程式只是單純載入 `UNIQLO` 的 **台灣官網**，當你逛到某樣商品頁面時，會即時將相同商品　在 **日本官網** 的售價　和　匯率換算後的售價　等等的資訊加到頁面左側(原本售價之下方)
 
-**Use this app along with the [Electron API Demos](http://electron.atom.io/#get-started) app for API code examples to help you get started.**
+- 綠底代表 **台灣售價**比 **日本售價** 還便宜
+![cheap](/demo/cheap.PNG)
+- 紅底代表 **台灣售價** 比 **日本售價** 還貴
+![expensive](/demo/expensive.PNG)
+- 也有可能在台灣販售的商品在日本官網上找不到(?)
+![none](/demo/none.PNG)
 
-A basic Electron application needs just these files:
+起源是有一天在 `Youtube` 上看到了這則影片 [台灣的UNIQLO太貴了！？台日物價大比較！](https://www.youtube.com/watch?v=23GKFZeFPTo)
 
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
+然而，本人幾乎九成的衣服都是在 UNIQLO 買，其實看完後有點傷心，於是有了這個點子，做出 `UN $ QLQ`，把 `UNIQLO` 的 LOGO 後半部改成 $ 和 哭臉
 
-You can learn more about each of these components within the [Quick Start Guide](http://electron.atom.io/docs/tutorial/quick-start).
-
-## To Use
-
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-git clone https://github.com/electron/electron-quick-start
-# Go into the repository
-cd electron-quick-start
-# Install dependencies
-npm install
-# Run the app
-npm start
-```
-
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
-
-## Resources for Learning Electron
-
-- [electron.atom.io/docs](http://electron.atom.io/docs) - all of Electron's documentation
-- [electron.atom.io/community/#boilerplates](http://electron.atom.io/community/#boilerplates) - sample starter apps created by the community
-- [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - a very basic starter Electron app
-- [electron/simple-samples](https://github.com/electron/simple-samples) - small applications with ideas for taking them further
-- [electron/electron-api-demos](https://github.com/electron/electron-api-demos) - an Electron app that teaches you how to use Electron
-- [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
-
-## License
-
-[CC0 1.0 (Public Domain)](LICENSE.md)
+若你是純粹要玩、不碰程式的人
