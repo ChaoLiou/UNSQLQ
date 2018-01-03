@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>jQuery injection into webview preload</title>
+</head>
+
+<body style="overflow:hidden;">
+  <button id="goBack" onclick="goBack()">←</button>
+  <button id="goForward" onclick="goForward()">→</button>
+  <webview id="webview" src="http://www.uniqlo.com/tw/" style="position:absolute;width:99%;height:100%;"
+    allowpopups webpreferences="nodeIntegration=no,nativeWindowOpen=yes"></webview>
+  <script>
+    function goBack() {
+      const webview = document.querySelector('webview');
+      webview.goBack();
+    }
+    function goForward() {
+      const webview = document.querySelector('webview');
+      webview.goForward();
+    }
+  </script>
+</body>
+
+</html>

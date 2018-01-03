@@ -1,0 +1,17 @@
+.container-inject {
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    border-style: solid;
+    border-color: yellow;
+    padding: 10px;
+}
+
+.cheap {
+    background-color: green;
+    color: white;
+}
+
+.expensive {
+    background-color: red;
+    color: white;
+}
