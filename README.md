@@ -15,4 +15,11 @@
 - 也有可能在台灣販售的商品在日本官網上找不到(?)
 ![none](/demo/none.PNG)
 
-若你是純粹要玩、不碰程式碼的人，可以下載 [UNSQLQ_release](https://app.box.com/s/9d4hjfcb0bjldtgopd0smiy2inqhk6g2) `可執行程式`(解壓縮後即可點擊程式使用)
+> 若你是純粹想玩、不碰程式碼的人，可以下載 [UNSQLQ_release_large](https://app.box.com/s/97ie767vjxk5q01yyk8vn7unp65179ks) (解壓縮後即可點擊程式使用)
+
+> 若你的電腦能使用 `npm`，可以下載 [UNSQLQ_release](https://app.box.com/s/ckzjirv1j8y0od482kr9ehyqjns10crb) 
+並在第一次開啟程式前，在 `global 層級` 安裝 `electron` (假如你已經安裝過省略此步驟):
+
+```
+npm install electron --global
+```
